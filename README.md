@@ -10,6 +10,7 @@ Because this is the work directory.
 ### Environment Variables
 Also there are some environment variables you are able to set.
 This are variables of the sphinx command.
+
 | Name      | Default Value | 
 |-----------|---------------|
 | options   | ""            |
