@@ -7,8 +7,7 @@ ENV outdir "_build"
 ENV filenames ""
 
 RUN mkdir /sphinx
-RUN pip install sphinx
-RUN pip install sphinx_rtd_theme
+RUN /bin/bash -c 'sed -E -e "s/_|latest/\ /g" <<< "sphinx_$DOCKER_TAG" | xargs pip --no-cache-dir install'
 
 WORKDIR /sphinx
 
