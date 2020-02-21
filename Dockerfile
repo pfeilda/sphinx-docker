@@ -7,7 +7,7 @@ ENV outdir "_build"
 ENV filenames ""
 
 RUN mkdir /sphinx
-RUN pip --no-cache-dir install sphinx
+RUN sed -E -e 's/_|latest/\ /g' <<<  $DOCKER_Tag | xargs pip --no-cache-dir install
 
 WORKDIR /sphinx
 
