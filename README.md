@@ -16,7 +16,6 @@ You have to mount or copy your data in the folder /sphinx.
 Because this is the work directory.
 Then it will build your documentation with the command:
 
-.. code:: bash
     sphinx-build ${options} ${sourcedir} ${outdir} ${filenames}
 
 ### Environment Variables
