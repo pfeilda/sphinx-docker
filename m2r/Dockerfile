@@ -1,3 +1,3 @@
 FROM pfeilda/sphinx:latest
 
-RUN pip install m2r
+RUN pip --no-cache-dir install m2r

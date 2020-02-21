@@ -7,7 +7,7 @@ ENV outdir "_build"
 ENV filenames ""
 
 RUN mkdir /sphinx
-RUN pip install sphinx
+RUN pip --no-cache-dir install sphinx
 
 WORKDIR /sphinx
 
