@@ -8,7 +8,6 @@ ENV filenames ""
 
 RUN mkdir /sphinx
 RUN pip install sphinx
-RUN pip install sphinx_rtd_theme
 
 WORKDIR /sphinx
 
