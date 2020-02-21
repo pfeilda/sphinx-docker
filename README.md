@@ -8,7 +8,7 @@ For example the `latest` tag only contains sphinx by itself.
 The image `sphinx-rtd-theme_latest` contains the ´pip´ package sphinx-rtd-theme as additional package to the latest tag.
 
 ### You need an additional pip package installed?
-As you can see the tag name has underscores. The underscore is the delemiter for the `pip` package that are installed in addition to the `sphinx` package.
+As you can see the tag name has some strange symbol combinations `-_-`. This is the delemiter for the `pip` package that are installed in addition to the `sphinx` package.
 So if you need an additional image feel free to contact [me](#author)
 
 ## Usage
