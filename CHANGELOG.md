@@ -1,6 +1,10 @@
 # Changelog
 The versioning of this project refers to Semantic Versioning 2.0.0 (https://semver.org/).
 
+## 1.1.1
+* added issue tracker in readme
+* added build hook for injecting environment variable ($DOCKER_TAG)
+
 ## 1.0.1
 ### fixed 
 * delimiter in dockerfile for sphinx

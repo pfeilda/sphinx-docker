@@ -29,8 +29,11 @@ This are variables of the sphinx command.
 | outdir    | "_build"      |
 | filenames | ""            |
 
+## Issue Tracker
+If some issues occur you can track these [here](https://github.com/pfeilda/sphinx-docker/issues)
+
 ## Contributing
-If you want to contribute please click [here](./CONTRIBUTING.md)
+If you want to contribute please click [here](https://github.com/pfeilda/sphinx-docker/blob/develop/CONTRIBUTING.md)
 
 ## Author
 Daniel Pfeil 
