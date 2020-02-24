@@ -1,6 +1,10 @@
 # Changelog
 The versioning of this project refers to Semantic Versioning 2.0.0 (https://semver.org/).
 
+## 1.0.1
+### fixed 
+* delimiter in dockerfile for sphinx
+
 ## 1.0.0
 ### added
 * Licence, Changelog, Contribute file
