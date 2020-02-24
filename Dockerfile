@@ -1,6 +1,8 @@
 FROM python
 MAINTAINER d.pfeil@api-studio.de
 
+ARG DOCKER_TAG=$DOCKER_TAG
+
 ENV options ""
 ENV sourcedir "."
 ENV outdir "_build"
